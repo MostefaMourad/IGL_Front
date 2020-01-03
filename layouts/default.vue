@@ -1,10 +1,9 @@
 <template>
-  <v-app :light="true">
+  <v-app dark >
     <v-navigation-drawer
       v-model="drawer"
       :mini-variant="miniVariant"
       :clipped="clipped"
-      :light="true"
       fixed
       app
     >
@@ -17,7 +16,7 @@
           exact
         >
           <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
+            <v-icon >{{ item.icon }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title v-text="item.title" />
@@ -29,7 +28,7 @@
     <v-app-bar
       :clipped-left="clipped"
       color="#4285f4"
-      collapse-on-scroll="true"
+      :collapse-on-scroll="collapsed"
       fixed
       app
     >
@@ -87,6 +86,7 @@ export default {
       ],
       miniVariant: false,
       right: true,
+      collapsed :true ,
       rightDrawer: false,
       title: 'Schoolar'
     }
