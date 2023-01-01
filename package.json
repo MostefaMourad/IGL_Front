@@ -15,10 +15,10 @@
     "@nuxtjs/axios": "^5.9.2",
     "esdoc": "^1.1.0",
     "esdoc-standard-plugin": "^1.0.0",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.11.0"
   },
   "devDependencies": {
-    "@nuxtjs/vuetify": "^1.0.0",
+    "@nuxtjs/vuetify": "^1.12.3",
     "@vue/test-utils": "^1.0.0-beta.27",
     "babel-jest": "^24.1.0",
     "jest": "^24.1.0",
